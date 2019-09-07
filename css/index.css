@@ -1,0 +1,213 @@
+.container{
+	position: relative;
+	padding: 20px;
+	margin: 50px auto;
+}
+.container li{
+	display: inline-block; 
+	width: 18px; 
+	height: 18px; 
+	margin: 2px; 
+	padding: 2px;
+	list-style: none;
+	float: left;
+	background: url(../img/fruit.png);
+	background-origin:content-box;
+	border: 1px dotted #eee;
+}
+
+.linkLine{
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	background-color: red;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.container li.active{border: 1px solid red;}
+
+.container li.list0{
+	background: transparent;
+}
+
+/* bg-菠萝 */
+.container li.list1{ 
+    background-position: -46px -117px;
+}
+
+/* bg-草莓 */ 
+.container li.list2{
+    background-position: -50px -9px;
+}
+
+/* bg-鳄梨 */ 
+.container li.list3{
+    background-position: -82px -117px;
+}
+
+/* bg-番木瓜 */ 
+.container li.list4{
+    background-position: -10px -45px;
+}
+
+/* bg-贵人果  */
+.container li.list5{
+    background-position: -118px -117px;
+}
+
+/* bg-番石榴 */ 
+.container li.list6{
+    background-position: -160px -9px;
+}
+
+/* bg-黑醋栗 */ 
+.container li.list7{
+    background-position: -47px -45px;
+}
+
+/* bg-红枣 */ 
+.container li.list8{
+    background-position: -160px -45px;
+}
+
+/* bg-花生 */ 
+.container li.list9{
+    background-position: -160px -81px;
+}
+
+/* bg-橘子 */ 
+.container li.list10{
+    background-position: -160px -117px;
+}
+
+/* bg-蓝莓 */ 
+.container li.list11{
+    background-position: -9px -153px;
+}
+
+/* bg-梨子 */ 
+.container li.list12{
+    background-position: -45px -153px;
+}
+
+/* bg-芒果 */ 
+.container li.list13{
+    background-position: -87px -9px;
+}
+
+/* bg-梅子 */ 
+.container li.list14{
+    background-position: -87px -45px;
+}
+
+/* bg-柠檬 */ 
+.container li.list15{
+    background-position: -81px -153px;
+}
+
+/* bg-猕猴桃 */ 
+.container li.list16{
+    background-position: -10px -81px;
+}
+
+/* bg-枇杷 */ 
+.container li.list17{
+    background-position: -117px -153px;
+}
+
+/* bg-蜜橘 */ 
+.container li.list18{
+    background-position: -10px -9px;
+}
+
+/* bg-苹果 */ 
+.container li.list19{
+    background-position: -153px -153px;
+}
+
+/* bg-葡萄 */ 
+.container li.list20{
+    background-position: -196px -9px;
+}
+
+/* bg-桑椹 */ 
+.container li.list21{
+    background-position: -196px -45px;
+}
+
+/* bg-山莓 */ 
+.container li.list22{
+    background-position: -47px -81px;
+}
+
+/* bg-石榴 */ 
+.container li.list23{
+    background-position: -196px -81px;
+}
+
+/* bg-柿子 */ 
+.container li.list24{
+    background-position: -196px -117px;
+}
+
+/* bg-水果 */ 
+.container li.list25{
+    background-position: -196px -153px;
+}
+
+/* bg-无花果 */ 
+.container li.list26{
+    background-position: -9px -189px;
+}
+
+/* bg-桃子_  */
+.container li.list27{
+    background-position: -45px -189px;
+}
+
+/* bg-西瓜 */ 
+.container li.list28{
+    background-position: -84px -81px;
+}
+
+/* bg-仙人果 */ 
+.container li.list29{
+    background-position: -81px -189px;
+}
+
+/* bg-香蕉 */ 
+.container li.list30{
+    background-position: -124px -9px;
+}
+
+/* bg-杏 */ 
+.container li.list31{
+    background-position: -117px -189px;
+}
+
+/* bg-杏仁 */ 
+.container li.list32{
+    background-position: -153px -189px;
+}
+
+/* bg-杨桃 */ 
+.container li.list33{
+    background-position: -124px -45px;
+}
+
+/* bg-椰子 */ 
+.container li.list34{
+    background-position: -124px -81px;
+}
+
+/* bg-樱桃 */ 
+.container li.list35{
+    background-position: -189px -189px;
+}
+
+/* bg-榛子 */ 
+.container li.list36{
+    background-position: -10px -117px;
+}
